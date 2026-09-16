@@ -1,75 +1,79 @@
-# Muthumula Ayyappa Reddy - AI & ML Portfolio Website
+# Muthumula Ayyappa Reddy — AI/ML Portfolio
 
-Welcome to the official personal portfolio website repository of **Muthumula Ayyappa Reddy**, Computer Science & Engineering student at **Lovely Professional University**, specializing in Artificial Intelligence, Machine Learning, Generative AI, Transformer models, and RAG systems.
+> Personal portfolio website focused on Artificial Intelligence, Machine Learning, Generative AI, LLM applications, RAG systems, and automation.
 
----
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-111827?style=for-the-badge)](https://ayyapppareddy.github.io/portfolio/)
+[![GitHub](https://img.shields.io/badge/GitHub-AyyapppaReddy-181717?style=for-the-badge&logo=github)](https://github.com/AyyapppaReddy)
 
-## 🌟 Key Features
+## Overview
 
-- **Clean Executive Aesthetic**: Industry-standard executive dark & light themes with curated obsidian, slate, and royal blue palette, refined typography (Inter & Plus Jakarta Sans), and zero visual clutter.
-- **Crystal-Clear Portrait Presentation**: High-definition framing displaying Muthumula Ayyappa Reddy's authentic portrait with smooth subpixel antialiasing and optimal facial framing.
-- **Production-Grade AI & ML Project Showcases**:
-  1. *Tropical Cyclone Formation & Intensity Prediction*: XGBoost, Random Forest, SHAP explainability, and meteorological data engineering.
-  2. *Automatic MCQ Quiz Generator*: Transformer-based assessment automation with T5 and BART models.
-  3. *DocSensei*: Retrieval-Augmented Generation (RAG) system with ChromaDB vector search and LangChain.
-- **Categorized Skills Stack**: Pill badges organized into Programming Languages, AI & ML, Data Analysis, and Computer Science foundations.
-- **Education Timeline & Certifications**: Complete history for LPU B.Tech CSE (2024–2028, CGPA 7.09), Narayana Junior College (95.4% MPC), Sri Venkateswara High School (91%), AI Engineer Launchpad, and iAmneo certifications.
-- **Printable Curriculum Vitae**: Executive resume modal with one-click browser print (`window.print()`) stylesheet.
-- **Zero Build Tool Dependencies**: Built with pure HTML5, CSS3, and modern vanilla JavaScript.
+This repository contains my personal developer portfolio. It presents my technical skills, selected AI/ML projects, education, certifications, and contact links in a responsive single-page interface.
 
----
+The portfolio is intentionally lightweight: it uses HTML, CSS, JavaScript, and JSON data without a frontend build framework.
 
-## 📁 Repository Structure
+## Featured Work
+
+### 🤖 DocSensei — Intelligent Document Q&A
+Retrieval-Augmented Generation (RAG) application for asking questions about PDF and DOCX documents using chunking, embeddings, semantic retrieval, ChromaDB, LangChain, and Hugging Face.
+
+### 🌪️ Tropical Cyclone Formation & Intensity Prediction
+Machine-learning workflow for meteorological data preprocessing, feature engineering, exploratory analysis, and predictive modeling for cyclone formation and intensity.
+
+### 🧠 Automatic MCQ Quiz Generator
+Generative-AI application that produces multiple-choice questions, answer keys, and explanations from educational material using transformer-based NLP models such as T5 and BART.
+
+## Tech Stack
+
+| Area | Technologies |
+|---|---|
+| Languages | Python, JavaScript, SQL, HTML, CSS |
+| AI/ML | Machine Learning, NLP, Transformers, Generative AI |
+| LLM Applications | RAG, Prompt Engineering, Embeddings, Semantic Search |
+| Frameworks/Tools | LangChain, Hugging Face, ChromaDB, Streamlit |
+| Developer Tools | Git, GitHub, VS Code |
+
+## Repository Structure
 
 ```text
-portfolio/
-├── assets/
-│   ├── ayyappa_real_profile.jpg # Authentic high-definition portrait photo
-│   ├── cyclone_ui.jpg           # Tropical cyclone model architecture mockup
-│   └── docsensei_ui.jpg         # DocSensei RAG vector pipeline diagram
-├── index.html                   # Semantic executive HTML5 structure
-├── styles.css                   # Responsive CSS3 stylesheet (Dark/Light themes, executive typography)
-├── script.js                    # Lightweight navigation, theme toggle, CV modal, and form logic
-├── data.json                    # Synchronized profile data, education, and credentials
-└── README.md                    # Documentation and deployment guide
+port/
+├── assets/       # Portfolio images and visual assets
+├── data.json     # Portfolio content/data
+├── index.html    # Main page
+├── styles.css    # Responsive styling and themes
+├── script.js     # UI interactions and portfolio logic
+└── README.md     # Project documentation
 ```
 
----
-
-## 🚀 How to Run Locally
-
-### Method 1: Direct File Open
-Simply double-click `index.html` or drag it into any modern web browser (Google Chrome, Microsoft Edge, Mozilla Firefox, Safari).
-
-### Method 2: Python Local Web Server (Recommended)
-Open PowerShell or Command Prompt in the portfolio directory:
+## Run Locally
 
 ```bash
+git clone https://github.com/AyyapppaReddy/port.git
+cd port
 python -m http.server 8000
 ```
-Then open your browser and navigate to: `http://localhost:8000`
+
+Open `http://localhost:8000` in your browser.
+
+You can also open `index.html` directly for a simple local preview.
+
+## Deployment
+
+The site is compatible with static hosting platforms such as GitHub Pages, Vercel, and Netlify. No build command is required.
+
+## Current Focus
+
+- AI/ML engineering
+- Generative AI and LLM applications
+- Retrieval-Augmented Generation (RAG)
+- NLP and transformer architectures
+- AI-assisted automation
+- Practical, deployable software projects
+
+## Connect
+
+- **GitHub:** https://github.com/AyyapppaReddy
+- **Portfolio:** https://ayyapppareddy.github.io/portfolio/
 
 ---
 
-## 🌐 Deploying to Free Web Hosting
-
-### Deploy on GitHub Pages
-1. Push this directory to a GitHub repository: `https://github.com/AyyapppaReddy/portfolio`
-2. Go to **Settings** -> **Pages**.
-3. Under **Branch**, select `main` (or `master`) and folder `/ (root)`.
-4. Click **Save**. Your site will be live at `https://ayyapppareddy.github.io/portfolio`.
-
-### Deploy on Vercel or Netlify
-1. Drag and drop the `portfolio` folder directly into [Netlify Drop](https://app.netlify.com/drop) or import your GitHub repo on [Vercel](https://vercel.com).
-2. No build step or build command required!
-
----
-
-## 👤 Profile Contact
-
-- **Name**: Muthumula Ayyappa Reddy
-- **Email**: [ayyappareddy49777@gmail.com](mailto:ayyappareddy49777@gmail.com)
-- **LinkedIn**: [linkedin.com/in/muthumula-ayyappa-reddy-698703432](https://www.linkedin.com/in/muthumula-ayyappa-reddy-698703432/)
-- **GitHub**: [github.com/AyyapppaReddy](https://github.com/AyyapppaReddy)
-- **Mobile**: +91 9115431408
-- **University**: Lovely Professional University (Punjab, India)
+Built with HTML, CSS, JavaScript, and a focus on practical AI/ML engineering.
